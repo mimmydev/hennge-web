@@ -2,12 +2,12 @@
   "name": "vue-app",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --port 5050",
-    "preview": "vite preview",
-    "build": "vite build",
-    "validate": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "dev": "bunx --bun vite --port 5050",
+    "preview": "bunx --bun vite preview",
+    "build": "bunx --bun vite build",
+    "validate": "bunx vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
+    "lint": "bunx eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "bunx prettier --write src/"
   },
   "dependencies": {
     "lodash-es": "^4.17.21",

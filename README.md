@@ -12,13 +12,13 @@ Refer to the [challenge_details/CHALLENGE.md](../challenge_details/CHALLENGE.md)
 Install the dependencies...
 
 ```bash
-npm install
+bun install
 ```
 
 ...then start the dev server:
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 Wait for the project to finish compiling, then navigate to [localhost:5050](http://localhost:5050).
