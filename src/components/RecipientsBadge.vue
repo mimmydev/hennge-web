@@ -12,5 +12,6 @@ const props = defineProps<{ numTruncated: number }>()
   border-radius: 3px;
   background-color: var(--color-primary);
   color: #f0f0f0;
+  cursor: pointer;
 }
 </style>
